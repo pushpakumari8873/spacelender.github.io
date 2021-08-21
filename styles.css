@@ -1,0 +1,640 @@
+*{
+     font-family: 'Lato', sans-serif;
+   }
+
+     /* css part of navbar  */
+
+ nav.black{
+     background: #5b3256;
+   }
+   .nav-item{
+     font-size: 20px;
+     padding:5px 20px;
+   }
+   .navbar-brand{
+     font-size: 25px;
+     padding: 0 15px;
+   }
+
+  
+   /* css part of categories */
+
+.img1{
+  overflow: hidden;
+}
+.img1 img{
+  transition: all 1.5s ease;
+}
+.img1:hover img{
+  transform: scale(1.1);
+}
+
+.categories h3{
+     font-weight: bold;
+     padding-top: 40px;
+      padding-bottom: 5px;
+}
+.categories h4{
+     font-weight: bold;
+     margin-top: 12px;
+}
+
+.categories .img1 img{
+     border-radius: 7px;
+     height: 300px;
+     width: 100%;
+}
+
+/* css part of carousel */
+
+.post{
+     overflow: hidden;
+}
+.post-slider .post-wrapperrr .post .slider-image{
+     transition: all 0.9s ease;
+}
+.post-slider .post-wrapperrr .post:hover .slider-image{
+     transform: scale(1.1);
+}
+
+
+/* css of about section */
+
+.about{
+     height:600px;
+     margin-top: 90px;
+     background-color: #d8bfd8;
+     padding: 30px;
+}
+.about h1{
+     font-size:30px;
+     font-weight: bold;
+}
+.about h5{
+     font-weight: bold;
+     
+}
+.ab{
+     display: flex;
+}
+.ab #img1{
+     width: 350px;
+      height: 230px;
+}
+.ab #img2{
+     padding-top: 8px;
+     width: 350px;
+      height: 230px;
+}
+.ab #img3{
+     width: 490px; 
+     height: 460px;
+}
+.abb h5{
+     font-weight: bold;
+     margin-left: 10px;
+}
+
+.abb p{
+     font-size:20px;
+     margin-bottom: 30px;
+     margin-left: 10px;
+}
+
+/* css part of discover */
+
+
+.slider-title{
+     text-align:left;
+      padding-top:120px;
+      padding-left: 90px;
+}
+
+      .post-slider{
+          
+          position:relative;
+      }
+      
+      .post-slider .post-wrapperrr{
+          width:90%;
+          height:580px;
+          margin:0px auto;
+          
+          overflow: hidden;
+          padding: 10px 0px 10px 0px;
+      }
+      
+      .post-slider .post-wrapperrr .post{
+          background-color: aqua;
+          display: inline-block;
+          width: 300px;
+          height: 490px;
+          margin: 0px 10px;
+          background-color: white;
+          border-radius: 8px;
+          margin-top: 5px;
+      }
+      
+      .post-slider .slider-title{
+          text-align: center;
+          margin: 30px auto;
+      }
+      
+      .post-slider .next1{
+          position: absolute;
+          top:94%;
+          right: 48%;
+          font-size: 1rem;
+          cursor: pointer;
+          color: black;
+      }
+      
+      .post-slider .prev1{
+          position: absolute;
+          top:94%;
+          cursor: pointer;
+          color: black;
+          left: 48%;
+          font-size: 1rem;
+      }
+      
+      .post-slider .post-wrapperrr .post .slider-image{
+          width:100%;
+          height:500px;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+      }
+       .post-slider .post-wrapperrr .post .post-info{
+          height: 130px;
+           padding: 5px 5px;
+           margin-top: 3px;
+          
+      }
+
+
+      /* css of footer section */
+
+      .footer{
+          background-color: #5b3256;
+           color:#fff; 
+           cursor: pointer;
+      }
+      .footer .f1{
+          margin-top: 50px;
+          padding-top: 30px 60px;
+           text-align: center;
+      }
+      .footer f2{
+          font-size: 23px; 
+          word-spacing: 2px;
+      }
+      .footer a{
+           color: white;
+           cursor: pointer;
+      }
+      .footer a:hover{
+           color: white;
+      }
+
+      .footer .f3 a{
+          padding:10px 40px;
+          color: #5b3256;
+          background-color: white;
+           font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-bottom: 15px;
+      }
+
+      @media(min-width: 992px){
+
+      } 
+    
+      @media(min-width: 768px) and (max-width:991px){
+
+          /* categories section */
+          .categories h3{
+               font-weight: bolder;
+               padding-top: 40px;
+                padding-bottom: 5px;
+                font-size: 29px;
+                margin-left: 50px;
+          } 
+          .categories h4{
+               font-weight: bold;
+               margin-top: 12px;
+          }
+          
+          .categories .img1 img{
+               width: 800px;
+               height: 350px;
+          }
+          .categories .img1{
+               margin-bottom: 40px;
+               padding-bottom: 30px;
+          }
+
+          /* about section */
+
+          .about{
+               height:800px;
+               padding: 5px;
+             
+          }
+
+          .about h1{
+               margin-left: 50px;
+               margin-bottom: 10px;
+          }
+          .about #img3{
+               display: none;
+          }
+          .about #img2{
+               display: none;
+          }
+          .about #img1{
+               width: 650px;
+               height: 300px;
+               margin-bottom: 15px;
+          }
+
+          /* css of discover section */
+
+   .post-slider .post-wrapperrr{
+          width:90%;
+          height:580px;
+          margin:0px auto;
+          
+          overflow: hidden;
+          padding: 10px 0px 10px 0px;
+      }
+          
+.page-wrapperrr{
+     text-align:left;
+      padding-top:5px;
+}
+.page-wrapperrr .slider-title{
+     text-align:left;
+      padding-top:30px;
+      font-size: 30px;
+      font-weight: bold;
+
+}
+
+.post-slider .post-wrapperrr .post .post-info{
+     height: 130px;
+      padding: 5px 1px;
+      margin-top: 3px;
+     
+ }
+
+ .post-slider .post-wrapperrr .post .slider-image{
+     width:100%;
+     height:350px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
+ .post-slider .next1{
+          position: absolute;
+          top:89%;
+          right: 48%;
+          font-size: 1rem;
+          cursor: pointer;
+          color: black;
+      }
+      
+      .post-slider .prev1{
+          position: absolute;
+          top:89%;
+          cursor: pointer;
+          color: black;
+          left: 48%;
+          font-size: 1rem;
+      }
+
+
+/* css of footer section */
+
+.footer{
+     background-color: #5b3256;
+      color:#fff; 
+      cursor: pointer;
+ }
+ .footer .f1{
+     margin-top: 50px;
+     padding-top: 30px 60px;
+      text-align: center;
+ }
+ .footer f2{
+     font-size: 23px; 
+     word-spacing: 2px;
+ }
+ .footer a{
+      color: white;
+      cursor: pointer;
+ }
+ .footer a:hover{
+      color: white;
+ }
+
+ .footer .f3 a{
+     padding:10px 40px;
+     color: #5b3256;
+     background-color: white;
+      font-size: 20px;
+       font-weight: bold;
+       border-radius: 5px;
+       margin-bottom: 15px;
+ }
+} 
+
+     @media(min-width: 575px) and (max-width:767px){
+         
+           /* about section */
+
+           .about{
+               height:800px;
+               padding: 5px;
+             
+          }
+
+          .about h1{
+               margin-left: 50px;
+               margin-bottom: 10px;
+          }
+          .about #img3{
+               display: none;
+          }
+          .about #img2{
+               display: none;
+          }
+          .about #img1{
+               width: 650px;
+               height: 300px;
+               margin-bottom: 15px;
+          }
+
+          /* css of discover section */
+
+          .post-slider .post-wrapperrr{
+               width:90%;
+               height:400px;
+               margin:0px auto;
+               
+               overflow: hidden;
+               padding: 10px 0px 10px 0px;
+           }
+           
+           .post-slider .post-wrapperrr .post{
+               background-color: aqua;
+               display: inline-block;
+               width: 300px;
+               height: 400px;
+               margin: 0px 10px;
+               background-color: white;
+               border-radius: 8px;
+               margin-top: 5px;
+           }
+           
+           .post-slider .slider-title{
+               text-align: center;
+               margin: 10px  0;
+           }
+           
+
+
+          .post-slider .post-wrapperrr .post .slider-image{
+               width:100%;
+               height:300px;
+               border-top-left-radius: 5px;
+               border-top-right-radius: 5px;
+           }
+
+                    
+.page-wrapperrr{
+     text-align:left;
+      padding-top:5px;
+}
+.page-wrapperrr .slider-title{
+     text-align:left;
+      padding-top:30px;
+      font-size: 30px;
+      font-weight: bold;
+
+}
+.post-slider .post-wrapperrr .post .post-info{
+     height: 130px;
+      padding: 5px 5px;
+      margin-top: 3px;
+     
+ }
+ 
+ .post-slider .prev1{
+     display: none;
+}
+.post-slider .next1{
+     display: none;
+}
+          
+     } 
+
+     @media(min-width: 480px) and (max-width:574px){
+           
+          .about{
+               height:750px;
+               padding: 2px;
+             
+          }
+          .about p{
+               font-size: 15px;
+          }
+.about h5{
+     font-size: 18px;
+}
+
+          .about h1{
+               
+               margin-left: 50px;
+               /* margin-bottom: 5px; */
+          }
+          .about #img3{
+               display: none;
+          }
+          .about #img2{
+               display: none;
+          }
+          .about #img1{
+               width: 650px;
+               height: 300px;
+               margin-bottom: 10px;
+          }
+                  /* css of discover section */
+                  
+     
+           /* css of discover section      */
+
+           .post-slider .post-wrapperrr{
+               width:90%;
+               height:380px;
+               margin:0px auto;
+               
+               overflow: hidden;
+               padding: 10px 0px 10px 0px;
+           }
+           
+           .post-slider .post-wrapperrr .post{
+               background-color: aqua;
+               display: inline-block;
+               width: 300px;
+               height: 490px;
+               margin: 0px 10px;
+               background-color: white;
+               border-radius: 8px;
+               margin-top: 5px;
+           }
+           
+           .post-slider .slider-title{
+               text-align: center;
+               margin: 10px auto;
+           }
+           
+
+           .post-slider .post-wrapperrr .post .slider-image{
+               width:100%;
+               height:300px;
+               border-top-left-radius: 5px;
+               border-top-right-radius: 5px;
+           }
+
+
+     .page-wrapperrr{
+          text-align:left;
+           padding-top:5px;
+     }
+     .page-wrapperrr .slider-title{
+          text-align:left;
+           padding-top:30px;
+           font-size: 30px;
+           font-weight: bold;
+     
+     }
+     .post-slider .post-wrapperrr .post .post-info{
+          height: 130px;
+           padding: 5px 5px;
+           margin-top: 3px;
+          
+      }
+
+      .post-slider .prev1{
+           display: none;
+      }
+      .post-slider .next1{
+           display: none;
+      }
+
+      /* css of footer */
+
+      .footer{
+          background-color: #5b3256;
+           color:#fff; 
+      }
+      
+     } 
+
+     @media(max-width:479px){
+
+          /* css of about section */
+           .about{
+               height:750px;
+               padding: 2px;
+             
+          }
+          .about p{
+               font-size: 15px;
+          }
+.about h5{
+     font-size: 18px;
+}
+
+          .about h1{
+               
+               margin-left: 50px;
+               /* margin-bottom: 5px; */
+          }
+          .about #img3{
+               display: none;
+          }
+          .about #img2{
+               display: none;
+          }
+          .about #img1{
+               width: 650px;
+               height: 300px;
+               margin-bottom: 10px;
+          }
+
+               
+           /* css of discover section      */
+
+           .post-slider .post-wrapperrr{
+               width:90%;
+               height:350px;
+               margin:0px auto;
+               
+               overflow: hidden;
+               padding: 10px 0px 10px 0px;
+           }
+           
+           .post-slider .post-wrapperrr .post{
+               background-color: aqua;
+               display: inline-block;
+               width: 300px;
+               height: 490px;
+               margin: 0px 10px;
+               background-color: white;
+               border-radius: 8px;
+               margin-top: 5px;
+           }
+           
+           .post-slider .slider-title{
+               text-align: center;
+               margin: 10px auto;
+           }
+           
+
+           .post-slider .post-wrapperrr .post .slider-image{
+               width:100%;
+               height:270px;
+               border-top-left-radius: 5px;
+               border-top-right-radius: 5px;
+           }
+
+
+     .page-wrapperrr{
+          text-align:left;
+           padding-top:5px;
+     }
+     .page-wrapperrr .slider-title{
+          text-align:left;
+           padding-top:30px;
+           font-size: 30px;
+           font-weight: bold;
+     
+     }
+     .post-slider .post-wrapperrr .post .post-info{
+          height: 130px;
+           padding: 5px 5px;
+           margin-top: 3px;
+           /* font-size: 5px; */
+          
+      }
+
+      .post-slider .prev1{
+           display: none;
+      }
+      .post-slider .next1{
+           display: none;
+      }
+
+     } 
